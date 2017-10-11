@@ -1,0 +1,4 @@
+comments:
+    type:     rest
+    prefix: api
+    resource: ApiBundle\Controller\CommentsRESTController
