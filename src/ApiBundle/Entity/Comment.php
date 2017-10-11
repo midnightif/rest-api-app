@@ -23,9 +23,9 @@ class Comment
 
     /**
      * @ORM\ManyToOne(targetEntity="Application\Sonata\UserBundle\Entity\User")
-     * @ORM\JoinColumn(name="login", referencedColumnName="id", nullable=true, onDelete="SET NULL")
+     * @ORM\JoinColumn(name="login", referencedColumnName="id", nullable=false)
      */
-    private $user;
+    private $name;
 
     /**
      * @var \DateTime
@@ -129,25 +129,25 @@ class Comment
     }
 
     /**
-     * Set user
+     * Set name
      *
-     * @param \Application\Sonata\UserBundle\Entity\User $user
+     * @param \Application\Sonata\UserBundle\Entity\User $name
      * @return Comment
      */
-    public function setUser(\Application\Sonata\UserBundle\Entity\User $user = null)
+    public function setName(\Application\Sonata\UserBundle\Entity\User $name)
     {
-        $this->user = $user;
+        $this->name = $name;
 
         return $this;
     }
 
     /**
-     * Get user
+     * Get name
      *
      * @return \Application\Sonata\UserBundle\Entity\User 
      */
-    public function getUser()
+    public function getName()
     {
-        return $this->user;
+        return $this->name;
     }
 }

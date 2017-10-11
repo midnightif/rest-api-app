@@ -1,6 +1,6 @@
 <?php
 
-namespace CommentsBundle\Entity;
+namespace ApiBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Comment
  *
  * @ORM\Table(name="comment")
- * @ORM\Entity(repositoryClass="CommentsBundle\Repository\CommentRepository")
+ * @ORM\Entity(repositoryClass="ApiBundle\Repository\CommentRepository")
  */
 class Comment
 {
@@ -23,9 +23,9 @@ class Comment
 
     /**
      * @ORM\ManyToOne(targetEntity="Application\Sonata\UserBundle\Entity\User")
-     * @ORM\JoinColumn(name="login", referencedColumnName="id", nullable=true, onDelete="SET NULL")
+     * @ORM\JoinColumn(name="login", referencedColumnName="id", nullable=false)
      */
-    private $user;
+    private $name;
 
     /**
      * @var \DateTime
