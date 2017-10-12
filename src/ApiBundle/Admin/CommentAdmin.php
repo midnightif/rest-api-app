@@ -40,7 +40,7 @@ class CommentAdmin extends AbstractAdmin
     {
         $listMapper
             ->add('id')
-            ->add('user')
+            ->add('name')
             ->add('date')
             ->add('title')
             ->add('body')
@@ -60,7 +60,7 @@ class CommentAdmin extends AbstractAdmin
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper
-            ->add('user')
+            ->add('name')
             ->add('date')
             ->add('title')
             ->add('body')
