@@ -22,15 +22,16 @@ class Comment
     private $id;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Application\Sonata\UserBundle\Entity\User")
-     * @ORM\JoinColumn(name="login", referencedColumnName="id", nullable=false)
+     * @var string
+     *
+     * @ORM\Column(name="user", type="string", length=255)
      */
-    private $name;
+    private $user;
 
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="date", type="datetime")
+     * @ORM\Column(name="date", type="float")
      */
     private $date;
 
@@ -60,9 +61,32 @@ class Comment
     }
 
     /**
+     * Set user
+     *
+     * @param string $user
+     * @return Comment
+     */
+    public function setUser($user)
+    {
+        $this->user = $user;
+
+        return $this;
+    }
+
+    /**
+     * Get user
+     *
+     * @return string 
+     */
+    public function getUser()
+    {
+        return $this->user;
+    }
+
+    /**
      * Set date
      *
-     * @param \DateTime $date
+     * @param integer $date
      * @return Comment
      */
     public function setDate($date)
@@ -75,7 +99,7 @@ class Comment
     /**
      * Get date
      *
-     * @return \DateTime 
+     * @return integer 
      */
     public function getDate()
     {
@@ -126,28 +150,5 @@ class Comment
     public function getBody()
     {
         return $this->body;
-    }
-
-    /**
-     * Set name
-     *
-     * @param \Application\Sonata\UserBundle\Entity\User $name
-     * @return Comment
-     */
-    public function setName(\Application\Sonata\UserBundle\Entity\User $name)
-    {
-        $this->name = $name;
-
-        return $this;
-    }
-
-    /**
-     * Get name
-     *
-     * @return \Application\Sonata\UserBundle\Entity\User 
-     */
-    public function getName()
-    {
-        return $this->name;
     }
 }
