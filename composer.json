@@ -11,11 +11,8 @@
         "psr-4": { "": "src/" }
     },
     "require": {
-        "silex/silex": "^2.0",
-        "alcaeus/mongo-php-adapter": "^1.1",
-        "mongodb/mongodb": "^1.1",
-        "doctrine/mongodb": "^1.6",
-        "doctrine/mongodb-odm": "^1.1"
-    }
+        "silex/silex": "^2.2",
+        "mongodb/mongodb": "^1.1"
 
+    }
 }
