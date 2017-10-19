@@ -67,3 +67,7 @@ $app->put('/comment/{id}', function (Request $request, $id) use($app) {
 $app->delete('/comment/{id}', function ($id) use($app) {
    $app['mongo.comments']->remove(array('id' => $id));
 });
+
+$app->after(function (Request $request, Response $response) {
+    $response->headers->set('Access-Control-Allow-Origin', '*');
+});
