@@ -34,21 +34,36 @@ $app->post('/comment', function (Request $request) use($app) {
     }
 
     $newComment = [
-        '_id' => $request->request->get('_id'),
-        'name' => $request->request->get('name'),
-        'text' =>  $request->request->get('text'),
-        'data' => $request->request->get('data'),
+        '_id' => $app->escape( $request->request->get('_id') ),
+        'name' => $app->escape( $request->request->get('name') ),
+        'text' => $app->escape( $request->request->get('text') ),
+        'data' =>  $app->escape( $request->request->get('data') ),
     ];
 
     $app['mongo.comments']->insertOne($newComment);
     return $app->json($newComment,201);;
 });
 
+$app->put('/comment/{id}', function (Request $request, $id) use($app) {
 
-$app->put('/comment/{id}', function ($id) use($app) {
-    /* TODO this route should edit comment by id */
+    if (0 === strpos($request->headers->get('Content-Type'), 'application/json')) {
+        $data =json_decode($request->getContent(), true);
+        $request->request->replace(is_array($data) ? $data : array());
+    }
+
+    $updatedComment = [
+        '_id' => $app->escape( $request->request->get('_id') ),
+        'name' => $app->escape( $request->request->get('name') ),
+        'text' => $app->escape( $request->request->get('text') ),
+        'data' =>  $app->escape( $request->request->get('data') ),
+    ];
+
+    $app['mongo.comments']->update(array('_id' => $id), $updatedComment);
+
+    return $app->json($updatedComment,201);;
+
 });
 
 $app->delete('/comment/{id}', function ($id) use($app) {
-    /* TODO this route should delete one comment by id */
+   $app['mongo.comments']->remove(array('id' => $id));
 });
