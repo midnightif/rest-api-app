@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46d72a23-9c85-4d00-896d-fce9cc634287" name="Default" comment="switch to silex framework">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/constants.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Api/MongoServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Api/controllers.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Api/Entity/Comment.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/rest-api-app.iml" afterPath="$PROJECT_DIR$/.idea/rest-api-app.iml" />
+    <list default="true" id="46d72a23-9c85-4d00-896d-fce9cc634287" name="Default" comment="simple rest api">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Api/Api.php" afterPath="$PROJECT_DIR$/src/Api/Api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.php" afterPath="$PROJECT_DIR$/web/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Api/controllers.php" afterPath="$PROJECT_DIR$/src/Api/controllers.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,6 +24,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="composer.lock" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="214" column="25" lean-forward="false" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Api.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Api/Api.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,8 +49,8 @@
       <file leaf-file-name="controllers.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Api/controllers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="161">
+              <caret line="39" column="61" lean-forward="false" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
               <folding>
                 <element signature="e#6#51#0#PHP" expanded="true" />
               </folding>
@@ -56,11 +58,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Application.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/silex/silex/src/Silex/Application.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="402" column="20" lean-forward="false" selection-start-line="402" selection-start-column="20" selection-end-line="402" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MongoServiceProvider.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Api/MongoServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="170">
+              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <element signature="e#22#43#0#PHP" expanded="true" />
               </folding>
@@ -91,7 +103,7 @@
     <findStrings>
       <find>50</find>
       <find>store</find>
-      <find>store</find>
+      <find>sile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,72 +226,6 @@
             <path>
               <item name="api.host-panel.net" type="b2602c69:ProjectViewProjectNode" />
               <item name="api.host-panel.net" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.host-panel.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.host-panel.net" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mongodb" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.host-panel.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.host-panel.net" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mongodb" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mongodb" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.host-panel.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.host-panel.net" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mongodb" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mongodb" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.host-panel.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.host-panel.net" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="silex" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.host-panel.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.host-panel.net" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="silex" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="silex" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.host-panel.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.host-panel.net" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="silex" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="silex" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.host-panel.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.host-panel.net" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="silex" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="silex" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Silex" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.host-panel.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.host-panel.net" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="silex" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="silex" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Silex" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Provider" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.host-panel.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.host-panel.net" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -332,7 +278,7 @@
       <workItem from="1508223373747" duration="201000" />
       <workItem from="1508245463538" duration="16000" />
       <workItem from="1508249091029" duration="2216000" />
-      <workItem from="1508310369265" duration="20535000" />
+      <workItem from="1508310369265" duration="25646000" />
     </task>
     <task id="LOCAL-00001" summary="GET comments route added">
       <created>1507820457621</created>
@@ -369,11 +315,32 @@
       <option name="project" value="LOCAL" />
       <updated>1508223544160</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="simple rest api">
+      <created>1508340709198</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1508340709198</updated>
+    </task>
+    <task id="LOCAL-00007" summary="CRUD methods updated">
+      <created>1508399872796</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1508399872796</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Enabling CORS">
+      <created>1508402181238</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1508402181238</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67030000" />
+    <option name="totallyTimeSpent" value="72141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,9 +353,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27132195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27132195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -419,7 +385,10 @@
     <MESSAGE value="switch to silex framework" />
     <MESSAGE value="roll back from silex 2.2 to silex 1.1" />
     <MESSAGE value="mongo implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="mongo implementation" />
+    <MESSAGE value="simple rest api" />
+    <MESSAGE value="CRUD methods updated" />
+    <MESSAGE value="Enabling CORS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enabling CORS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -463,13 +432,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/PdoSessionHandler.php" />
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml" />
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -489,13 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/silex/silex/src/Silex/Application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -577,29 +532,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/constants.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Api/MongoServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#22#43#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,10 +548,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/silex/silex/src/Silex/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="402" column="20" lean-forward="false" selection-start-line="402" selection-start-column="20" selection-end-line="402" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Api/MongoServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#22#43#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="214" column="25" lean-forward="false" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Api/controllers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="161">
+          <caret line="39" column="61" lean-forward="false" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
           <folding>
             <element signature="e#6#51#0#PHP" expanded="true" />
           </folding>

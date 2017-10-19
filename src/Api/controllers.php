@@ -37,7 +37,7 @@ $app->post('/comment', function (Request $request) use($app) {
         '_id' => $app->escape( $request->request->get('_id') ),
         'name' => $app->escape( $request->request->get('name') ),
         'text' => $app->escape( $request->request->get('text') ),
-        'data' =>  $app->escape( $request->request->get('data') ),
+        'date' =>  $app->escape( $request->request->get('date') ),
     ];
 
     $app['mongo.comments']->insertOne($newComment);
@@ -55,17 +55,19 @@ $app->put('/comment/{id}', function (Request $request, $id) use($app) {
         '_id' => $app->escape( $request->request->get('_id') ),
         'name' => $app->escape( $request->request->get('name') ),
         'text' => $app->escape( $request->request->get('text') ),
-        'data' =>  $app->escape( $request->request->get('data') ),
+        'date' =>  $app->escape( $request->request->get('date') ),
     ];
 
-    $app['mongo.comments']->update(array('_id' => $id), $updatedComment);
+    $app['mongo.comments']->updateOne(['_id' => $id], $updatedComment);
 
     return $app->json($updatedComment,201);;
 
 });
 
 $app->delete('/comment/{id}', function ($id) use($app) {
-   $app['mongo.comments']->remove(array('id' => $id));
+   $app['mongo.comments']->deleteOne(['_id' => $id]);
+
+   return 'deleted';
 });
 
 $app->after(function (Request $request, Response $response) {
