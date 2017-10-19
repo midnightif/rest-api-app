@@ -58,7 +58,7 @@ $app->put('/comment/{id}', function (Request $request, $id) use($app) {
         'date' =>  $app->escape( $request->request->get('date') ),
     ];
 
-    $app['mongo.comments']->updateOne(['_id' => $id], $updatedComment);
+    $app['mongo.comments']->updateOne(['_id' => $id], ['$set' =>  $updatedComment]);
 
     return $app->json($updatedComment,201);;
 

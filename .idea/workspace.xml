@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46d72a23-9c85-4d00-896d-fce9cc634287" name="Default" comment="simple rest api">
+    <list default="true" id="46d72a23-9c85-4d00-896d-fce9cc634287" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Api/controllers.php" afterPath="$PROJECT_DIR$/src/Api/controllers.php" />
     </list>
@@ -49,8 +49,8 @@
       <file leaf-file-name="controllers.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Api/controllers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="39" column="61" lean-forward="false" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+            <state relative-caret-position="416">
+              <caret line="54" column="63" lean-forward="true" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
               <folding>
                 <element signature="e#6#51#0#PHP" expanded="true" />
               </folding>
@@ -278,7 +278,7 @@
       <workItem from="1508223373747" duration="201000" />
       <workItem from="1508245463538" duration="16000" />
       <workItem from="1508249091029" duration="2216000" />
-      <workItem from="1508310369265" duration="25646000" />
+      <workItem from="1508310369265" duration="25989000" />
     </task>
     <task id="LOCAL-00001" summary="GET comments route added">
       <created>1507820457621</created>
@@ -336,11 +336,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508402181238</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="typos and bug fix">
+      <created>1508403585047</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1508403585047</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72141000" />
+    <option name="totallyTimeSpent" value="72484000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,8 +360,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27132195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27132195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -388,7 +396,8 @@
     <MESSAGE value="simple rest api" />
     <MESSAGE value="CRUD methods updated" />
     <MESSAGE value="Enabling CORS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enabling CORS" />
+    <MESSAGE value="typos and bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="typos and bug fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -584,8 +593,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Api/controllers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="39" column="61" lean-forward="false" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+        <state relative-caret-position="416">
+          <caret line="54" column="63" lean-forward="true" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
           <folding>
             <element signature="e#6#51#0#PHP" expanded="true" />
           </folding>
